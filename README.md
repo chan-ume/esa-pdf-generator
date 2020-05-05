@@ -14,4 +14,5 @@ $ docker-compose up -d
 
 ## 3. use shiny application
 
-access `localhost:3838/esa` or `[YourIP]:3838/esa`
+* Update ESA_API_KEY and ESA_TEAM_NAME in esa_info.csv
+* Access `localhost:3838/esa` or `[YourIP]:3838/esa`
