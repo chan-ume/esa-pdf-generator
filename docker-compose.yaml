@@ -1,0 +1,12 @@
+version: '3'
+services: 
+  esa-shiny:
+    container_name: esa-shiny
+    image: esa-shiny:1.0
+    ports:
+      - 3838:3838
+    # environment:
+    #   - ESA_API_KEY=XXXXXXXXXXXXXXXX
+    #   - ESA_TEAM_NAME=XXXXXX
+    volumes: 
+      - $PWD/shiny-src:/srv/shiny-server/esa
