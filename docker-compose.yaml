@@ -10,3 +10,4 @@ services:
     #   - ESA_TEAM_NAME=XXXXXX
     volumes: 
       - $PWD/shiny-src:/srv/shiny-server/esa
+      - $PWD/shiny-src-template:/srv/shiny-server/esa-word-template
